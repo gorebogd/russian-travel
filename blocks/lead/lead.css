@@ -1,4 +1,10 @@
-@import url(./lead__title/lead__title.css);
-@import url(./lead__subtitle/lead__subtitle.css);
-@import url(./lead__image/lead__image.css);
-@import url(./lead__caption/lead__caption.css);
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+.lead {
+    width: 984px;
+    height: 1005px;
+    margin: 0 auto;
+}
