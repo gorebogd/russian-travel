@@ -1,0 +1,10 @@
+.intro__list-row {
+    max-width: 690px;
+    max-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+/* or 150% */
+    color: #FFFFFF;
+}

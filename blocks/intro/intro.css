@@ -4,7 +4,6 @@
 @import url(./__list-row/intro__list-row.css);
 
 .intro {
-    max-width: 690px;
-    max-height: 428px;
+    max-width: 984px;
     margin: 0 auto;
 }
