@@ -1,3 +1,5 @@
 .places__place {
     display: flex;
+    height: 660px;
+    width: 984px;
 }

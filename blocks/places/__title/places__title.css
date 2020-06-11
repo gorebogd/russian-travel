@@ -1,5 +1,6 @@
 .places__title {
-    max-width: 460px;
+    width: 50%;
+    margin: 0;
     max-height: 152px;
     font-style: normal;
     font-weight: 900;
