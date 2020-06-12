@@ -6,4 +6,6 @@
 
 .cover {
     padding-top: 44px;
+    max-width: 1184px;
+    margin: 0 auto;
 }
