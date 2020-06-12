@@ -10,5 +10,6 @@
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
-    margin: 92px auto 0;
+    margin: auto 0;
+    padding-top: 60px;
 }
