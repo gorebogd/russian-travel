@@ -2,3 +2,7 @@
     position: relative;
     margin: 0;
 }
+
+.cover__box:hover {
+    opacity: 0.3;
+}
