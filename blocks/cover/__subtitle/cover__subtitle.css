@@ -13,4 +13,5 @@
 /* or 122% */
     text-align: center;
     color: white;
+    z-index: 3;
 }

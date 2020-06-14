@@ -9,3 +9,12 @@
     max-width: 1184px;
     margin: 0 auto;
 }
+
+.cover:hover {
+    cursor: pointer;
+}
+
+.cover:hover .cover__box::before {
+    opacity: 0.8;
+    transition: opacity 0.5s linear;
+}
