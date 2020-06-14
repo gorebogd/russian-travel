@@ -1,6 +1,11 @@
 .cover__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     margin: 0;
+    min-height: 740px; 
 }
 
 .cover__box::before {

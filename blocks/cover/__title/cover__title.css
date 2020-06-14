@@ -1,11 +1,7 @@
 .cover__title {
-    position: absolute;
-    top: 245px;
-    left: 312px;
     margin: 0;
     /*top: 50%;*/    
-    width: 560px;
-    height: 152px;
+    max-width: 560px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
