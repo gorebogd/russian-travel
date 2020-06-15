@@ -4,8 +4,20 @@
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
-/* or 120% */
     text-align: center;
+/* or 120% */
     color: #FFFFFF;
     margin: 0 auto 64px;
+}
+
+@media (max-width: 1024px) {
+    .lead__subtitle  {
+        margin: 0 auto 56px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__subtitle  {
+        margin: 0 auto 40px;
+    }
 }
