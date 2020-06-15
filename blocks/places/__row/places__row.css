@@ -2,3 +2,18 @@
     display: flex;
     margin-bottom: 48px;
 }
+
+@media (max-width: 670px) {
+    .places__row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .places__row {
+        margin-bottom: 32px;
+    }
+    .places__row:last-of-type {
+        margin-bottom: 24px;
+    }
+}

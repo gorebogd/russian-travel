@@ -18,3 +18,22 @@
     opacity: 0.8;
     transition: opacity 0.5s linear;
 }
+
+@media (max-width: 1024px) {
+    .cover {
+        max-width: 100%;    
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        padding-top: 40px;    
+    }
+}
+
+@media (max-width: 320px) {
+    .cover {
+        padding-top: 16px;    
+        max-width: 100%;
+    }
+}

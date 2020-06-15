@@ -5,3 +5,20 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
+@media (max-width: 1024px) {
+    .places__site {
+        padding-left: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .places__site {
+        padding-left: 28px;
+    }
+}
+
+@media (max-width: 670px) {
+    .places__site {
+        display: none;
+    }
+}

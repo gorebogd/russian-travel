@@ -10,6 +10,27 @@
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
-    margin: auto 0;
+    margin: 0 auto;
     padding-top: 60px;
+    max-width: calc(100% - 296px);
+}
+
+@media (max-width: 1024px) {
+    .places {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        max-width: calc(100% - 48px);
+        padding-top: 56px;
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        max-width: 100%;
+        padding-top: 40px;
+    }
 }

@@ -21,4 +21,30 @@
     z-index: 2;
 }
 
+@media (max-width: 1024px) {
+    .cover__box {
+        height: auto;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__box {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cover__box {
+        min-height: 272px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__box {
+        min-height: 220px;
+    }
+}
+
+
 
