@@ -6,10 +6,11 @@
 @media (max-width: 670px) {
     .places__row {
         flex-direction: column;
+        align-items: center;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .places__row {
         margin-bottom: 32px;
     }

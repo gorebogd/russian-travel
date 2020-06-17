@@ -1,4 +1,8 @@
 .cover__box {
+    background-image: url(../../../images/cover-trains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +38,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
     .cover__box {
         min-height: 272px;
     }

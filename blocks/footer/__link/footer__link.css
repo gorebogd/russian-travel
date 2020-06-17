@@ -2,6 +2,10 @@
     padding: 0;
 }
 
+.footer__link:hover {
+    opacity: .8;
+}
+
 @media (max-width: 320px) {
     .footer__link {
         padding: 0;
