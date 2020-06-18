@@ -1,23 +1,23 @@
 .places__site {
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    margin-left: 40px;
     align-items: flex-start;
     justify-content: flex-end;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .places__site {
-        padding-left: 32px;
+        margin-left: 32px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .places__site {
-        padding-left: 28px;
+        margin-left: 28px;
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 730px) {
     .places__site {
         display: none;
     }

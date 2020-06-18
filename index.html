@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествие по России</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
             <header class="header">
                 <div class="header__logo"></div>
                     <ul class="header__lang-links">
-                        <li><a class="header__lang-link header__lang-link_ru" href="#">Ru</a></li>
+                        <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
                         <li><a class="header__lang-link" href="#">En</a></li>
                     </ul>
             </header>
@@ -20,8 +20,10 @@
                 <section class="lead">
                     <h1 class="lead__title">Путешествие по России</h1>
                     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                    <img src="./images/lead-polka.jpg" alt="Красивая картинка из поезда" class="lead__image">
-                    <p class="lead__caption">ваша полка — верхняя</p>
+                    <figure class="lead__image-box">
+                        <img class="lead__image" src="./images/lead-polka.jpg" alt="Красивая картинка из поезда">
+                        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                    </figure>
                 </section>
 
                 <section class="intro">
@@ -57,7 +59,7 @@
                             <div class="places__row">                            
                                 <h2 class="places__title">Куршская коса</h2>
                                 <div class="places__site">
-                                    <p class="places__url">URL</p>
+                                    <p class="places__url">url</p>
                                     <a href="http://park-kosa.ru" target="_blank" class="places__link">park-kosa.ru</a>
                                 </div>
                             </div>
@@ -71,9 +73,9 @@
                         </li>
                         <li class="places__place">
                             <div class="places__row">                            
-                                <h3 class="places__title">Кольский</h3>
+                                <h2 class="places__title">Кольский</h2>
                                 <div class="places__site">
-                                    <p class="places__url">URL</p>
+                                    <p class="places__url">url</p>
                                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="places__link">National Geographic</a>
                                 </div>
                             </div>
@@ -89,9 +91,9 @@
                         </li>
                         <li class="places__place">
                             <div class="places__row">                           
-                                <h3 class="places__title">Алтай</h3>
+                                <h2 class="places__title">Алтай</h2>
                                 <div class="places__site">
-                                    <p class="places__url">URL</p>
+                                    <p class="places__url">url</p>
                                     <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="places__link">Facebook</a>
                                 </div>
                             </div>
@@ -106,9 +108,9 @@
                         </li>
                         <li class="places__place">
                             <div class="places__row">                            
-                                <h3 class="places__title">Зимний Байкал</h3>
+                                <h2 class="places__title">Зимний Байкал</h2>
                                 <div class="places__site">
-                                    <p class="places__url">URL</p>
+                                    <p class="places__url">url</p>
                                     <a href="https://vk.com/baikalmile" target="_blank" class="places__link">https://vk.com/baikalmile</a>
                                 </div>
                             </div>
@@ -124,9 +126,9 @@
                         </li>
                         <li class="places__place">
                             <div class="places__row">                            
-                                <h3 class="places__title">Карелия</h3>
+                                <h2 class="places__title">Карелия</h2>
                                 <div class="places__site">
-                                    <p class="places__url">URL</p>
+                                    <p class="places__url">url</p>
                                     <a href="http://vodlozero.ru" target="_blank" class="places__link">http://vodlozero.ru/</a>
                                 </div>
                             </div>

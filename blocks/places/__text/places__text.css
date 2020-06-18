@@ -1,21 +1,22 @@
 .places__text {
-    padding-left: 40px;
+    margin-left: 40px;
+    margin-bottom: 24px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .places__text {
-        padding-left: 32px;
+        margin-left: 32px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     .places__text {
-        padding-left: 28px;
+        margin-left: 28px;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .places__text {
-        padding: 0 16px ;
+        margin: 0 16px ;
     }
 }
