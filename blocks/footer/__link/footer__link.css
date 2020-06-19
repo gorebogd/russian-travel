@@ -6,7 +6,7 @@
     opacity: .8;
 }
 
-@media (max-width: 3480px) {
+@media (max-width: 480px) {
     .footer__link {
         padding: 0;
         margin: 0;
